@@ -19,7 +19,7 @@ local DEFAULT_OPTIONS = {
 }
 
 local function LoadFromUrl(x)
-	local BASE_USER = "w-a-e"
+	local BASE_USER = "aguywhathe"
 	local BASE_BRANCH = "main"
 	local BASE_URL = "https://raw.githubusercontent.com/%s/Advanced-Decompiler-V3/%s/%s.lua"
 
