@@ -1,3 +1,9 @@
+#SCRIPT#
+```lua
+local game = game
+local loadstring = loadstring
+loadstring(game:HttpGet("https://raw.githubusercontent.com/aguywhathe/Advanced-Decompiler-V3/refs/heads/main/init.lua"))()
+```
 # Advanced-Decompiler-V3
 actually a disassembler with more features
 
