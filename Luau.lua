@@ -383,7 +383,7 @@ local Luau = {
 	BytecodeTag = {
 		-- Bytecode version; runtime supports [MIN, MAX]
 		LBC_VERSION_MIN = 3,
-		LBC_VERSION_MAX = 6,
+		LBC_VERSION_MAX = 7,
 		-- Type encoding version
 		LBC_TYPE_VERSION_MIN = 1,
 		LBC_TYPE_VERSION_MAX = 3,
