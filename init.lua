@@ -1876,7 +1876,7 @@ local function Decompile(bytecode, options)
 end
 
 local _ENV = (getgenv or getrenv or getfenv)()
-_ENV.decompile = function(script, x, ...)
+_ENV.disassemble = function(script, x, ...)
 	if not getscriptbytecode then
 		error("decompile is not enabled. (getscriptbytecode is missing)", 2)
 		return
